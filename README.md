@@ -1,6 +1,6 @@
 # KutumLab-T035: DREAM Challenge TARGET 2035 Submission
 
-This repository contains the code and documentation for the KutumLab-T035 team's submission to the **DREAM Challenge: TARGET 2035**. The goal of this challenge is to predict small molecule binders for the protein WDR91.
+This repository contains the code and documentation for the KutumLab-T035 team's submission to the (https://www.synapse.org/Synapse:syn65660836/wiki/631410)[**DREAM Challenge: TARGET 2035**]. The goal of this challenge is to predict small molecule binders for the protein WDR91.
 
 ## Methodology
 
