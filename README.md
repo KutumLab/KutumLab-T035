@@ -14,7 +14,7 @@ In the first step, we developed a machine learning pipeline based on molecular f
 - **Model Training**: A weighted XGBoost classifier was trained using a 5-fold cross-validation strategy to handle class imbalance and build robust models.
 - **Prediction**: The final score for each compound was the average predicted probability from the five models in the ensemble.
 
-For a detailed explanation, please see the [Step 1 Write-up](./STEP-1/writeup.md).
+For a detailed explanation, please see the [Step 1 Write-up](./STEP-1/README.md).
 
 ### Step 2: Max-Probability Ensemble and Embedding Closeness
 
@@ -23,7 +23,7 @@ For the second step, we submitted two distinct predictions:
 1. **Max-Probability Ensemble**: This approach used the same 5-fold XGBoost ensemble from Step 1, but the final score was determined by the *maximum* predicted probability across the five models, representing the highest confidence prediction.
 2. **Molformer Embedding Closeness**: This method used a pre-trained Molformer model to generate embeddings for test compounds and 14 known reference ligands. The final score was the maximum cosine similarity of a test compound to any of the reference ligands.
 
-For a detailed explanation, please see the [Step 2 Write-up](./STEP-2/writeup.md).
+For a detailed explanation, please see the [Step 2 Write-up](./STEP-2/README.md).
 
 ## Repository Structure
 
