@@ -54,7 +54,7 @@ graph TD
 3. **Hit Selection (`Sel_50`)**:
     * For each of the 14 reference ligands, we identified the top 5 test compounds with the highest cosine similarity scores.
     * We then created a combined, unique list of these top compounds. This resulted in a set of 53 unique compounds that are most similar to the known ligands.
-    * The `Sel_50` column in the submission file was marked as '1' for these 53 compounds and '0' for all others.
+    * The `Sel_50` column in the submission file was marked as '1' for the top 50 of these 53 compounds (based on max similarity) and '0' for all others.
 
 4. **Scoring**: The "Score" for every compound in the test set was determined by its **maximum** cosine similarity value when compared against all 14 reference ligands. This score represents how close a given test compound is to its nearest known ligand in the embedding space.
 
@@ -64,4 +64,4 @@ The two submission strategies yielded distinct sets of predictions and scores.
 
 * **Max-Probability Ensemble Results**: This submission file contains predictions based on the highest confidence score from our ensemble of machine learning models. The `Sel_50` column highlights the 50 compounds our models deemed most likely to be hits with the highest conviction from at least one model in the ensemble.
 
-* **Molformer Embedding Closeness Results**: This submission is based entirely on structural similarity to known active compounds. The `Sel_50` column identifies 53 compounds that are closest to the 14 reference ligands in the Molformer embedding space. The score for each compound is a direct measure of this closeness (max cosine similarity), providing a transparent and interpretable ranking metric based on proximity to known binders.
+* **Molformer Embedding Closeness Results**: This submission is based entirely on structural similarity to known active compounds. The `Sel_50` column identifies 50 compounds (of 53) that are closest to the 14 reference ligands in the Molformer embedding space. The score for each compound is a direct measure of this closeness (max cosine similarity), providing a transparent and interpretable ranking metric based on proximity to known binders.
