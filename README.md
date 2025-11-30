@@ -40,25 +40,26 @@ For a detailed explanation, please see the [Step 2 Write-up](./STEP-2/README.md)
 
 The KutumLab-T035 team consists of the following members:
 
-- Gautam Ahuja [1,2,*]
-- Rik Ganguly [3,*]
-- Zonunmawia [2,4]
-- Bableen Kaur [2]
-- Sagarika Toor [5]
-- Vinita Sharma [5]
+- Gautam Ahuja [1,2,3,4,*]
+- Rik Ganguly [3,4,*]
+- Zonunmawia [2,4,5]
+- Bableen Kaur [2,4]
+- Sagarika Toor [4,6]
+- Vinita Sharma [4,6]
 - Aakansha Rai [2]
-- Rintu Kutum [1,2,3,6,#]
+- Rintu Kutum [1,2,3,4,7,#]
 
 Affiliations:
 
+- [1] Department of Computer Science, Ashoka University, India
+- [2] Koita Centre for Digital Health at Ashoka (KCDH-A), Ashoka University, India
+- [3] Mphasis AI & Applied Tech Lab at Ashoka, Ashoka University, India
+- [4] Augmented Health Systems Laboratory, Ashoka University, India
+- [5] Department of Computer Science, International University of Applied Sciences, Bad Honnef, Germany
+- [6] Department of Biology, Ashoka University, India
+- [7] Trivedi School of Biosciences, Ashoka University, India  
 - [*] Equal contribution
-- [#] Corresponding author
-- [1] Department of Computer Science, Ashoka University
-- [2] Koita Centre for Digital Health - Ashoka (KCDH-A), Ashoka University
-- [3] Mphasis AI & Applied Tech Lab at Ashoka, Ashoka University
-- [4] International University of Applied Science, Bad Honnef, Germany
-- [5] Department of Biology, Ashoka University
-- [6] Trivedi School of Biosciences, Ashoka University
+- [#] Correspondance: rintu.kutum@ashoka.edu.in, rintu.kutum@augmented-health-systems.org
 
 ## License
 
